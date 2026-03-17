@@ -1,6 +1,6 @@
 name: product_prediction_pipeline
 run-name: ${{github.actor}} runs a product prediction pipeline
-on:[push]
+on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
