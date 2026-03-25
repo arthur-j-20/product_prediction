@@ -1,4 +1,5 @@
-create table insurance.products.customers
-(CustomerID INT PRIMARY KEY,
-  name VARCHAR(100),
-  age int);
+CREATE TABLE products.customers (
+    CustomerID INT IDENTITY(1,1) PRIMARY KEY,
+    name VARCHAR(100),
+    age INT
+);
